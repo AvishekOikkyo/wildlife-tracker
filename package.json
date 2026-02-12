@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "Avishek Roy",
   "license": "ISC",
-  "description": "assignment"
+  "description": "assignment",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
