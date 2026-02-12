@@ -1,3 +1,16 @@
+/********************************************************************************
+* WEB322 - Assignment 01
+*
+* I declare that this assignment is my own work in accordance with Seneca's
+* Academic Integrity Policy:
+*
+* https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
+*
+* Name: Avishek Roy
+* Student ID: 166-395-236
+* Date: 2026-02-06
+*
+********************************************************************************/
 const express = require('express')
 const path = require("path")
 const app = express()
@@ -119,4 +132,4 @@ app.get("/api/sightings/recent", async (req, res) => {
 });
 
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+module.exports = app;
