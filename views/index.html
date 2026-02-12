@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife Sighting Tracker</title>
+
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+    <header>
+        
+        <h1>Wildlife Sighting Tracker</h1>
+        <h2>Avishek Roy</h2>
+    </header>
+
+    <main>
+        <section>
+            <h3>About Me</h3>
+            <img src="/images/image.jpg" alt="Avishek Roy" width="200" />
+            <p>This is Avishek Roy. I am currently a student studying at Seneca Polytechnic.</p>
+        </section>
+
+        <!--Description-->
+        <h3>Project Description</h3>
+        <p>The assignment-1 is a wildlife sighting tracker. This is a web application built with Express.js. </p>
+
+        <section>
+            <h3>Available API Endpoints</h3>
+            <p>Click on any endpoint below to test it in your browser.</p>
+
+            <div class="endpoint">
+                <span class="method">GET</span>
+                <a href="/api/sightings">/api/sightings</a>
+                <p>Retrieve all wildlife sightings</p>
+            </div>
+
+            <div class="endpoint">
+                <span class="method">GET</span>
+                <a href="/api/sightings/verified">/api/sightings/verified</a>
+                <p>Get only verified sightings</p>
+            </div>
+
+            <div class="endpoint">
+                <span class="method">GET</span>
+                <a href="/api/sightings/species-list">/api/sightings/species-list</a>
+                <p>List all unique species names</p>
+            </div>
+
+            <div class="endpoint">
+                <span class="method">GET</span>
+                <a href="/api/sightings/habitat/forest">/api/sightings/habitat/forest</a>
+                <p>Find all sightings in forest habitats</p>
+            </div>
+
+            <div class="endpoint">
+                <span class="method">GET</span>
+                <a href="/api/sightings/search/eagle">/api/sightings/search/eagle</a>
+                <p>Search for eagle sightings</p>
+            </div>
+
+            <div class="endpoint">
+                <span class="method">GET</span>
+                <a href="/api/sightings/find-index/moose">/api/sightings/find-index/moose</a>
+                <p>Get index of moose in database</p>
+            </div>
+
+            <div class="endpoint">
+                <span class="method">GET</span>
+                <a href="/api/sightings/recent">/api/sightings/recent</a>
+                <p>Get 3 most recent sightings</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Avishek Roy</p>
+    </footer>
+
+</body>
+
+</html>
